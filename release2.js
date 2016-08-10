@@ -70,8 +70,6 @@ function entireQueryWithPromises() {
     	var newnew = [];
     	var topResult = everything[0];
     	var secondaryResults = everything.slice(1);
-    	//console.log('topResult', topResult);
-    	//console.log('secondaryResults', secondaryResults);
     	//console.log(secondaryResults);
     	
     	for (var i = 0; i < secondaryResults.length; i++) {
@@ -107,8 +105,6 @@ function entireQueryWithPromises() {
         	})
         }) 
 
-    	//theStories.push(secondaryResults);
-    	
     	console.log(theStories.length);
     })
 	.catch(function(err) {
